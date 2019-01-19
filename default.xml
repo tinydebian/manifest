@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <default remote="github"
+           revision="nanopi-neo2"
+           sync-j="4" />
+
+  <project path="build" name="tinydebian/build" />
+  <project path="u-boot" name="tinydebian/u-boot" />
+  <project path="kernel" name="tinydebian/kernel" />
+  <project path="app.tinywifi" name="tinydebian/app.tinywifi" />
+
+</manifest>
